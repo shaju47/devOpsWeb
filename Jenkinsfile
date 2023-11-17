@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools {
-        maven 'local_maven'
+        maven 'jdk17'
     }
 
     stages{
